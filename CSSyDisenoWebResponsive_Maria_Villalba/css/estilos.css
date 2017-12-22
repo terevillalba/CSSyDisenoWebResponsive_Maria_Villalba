@@ -1,0 +1,153 @@
+body{
+  font-family: 'Dancing Script';
+  background-color: #02010a;
+  margin:auto;
+}
+body a{
+  font-family: 'Dancing Script';
+  font-size: 18px;
+  color: black;
+}
+header{
+  background-color: #5b7989;
+  border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  padding: 10px 20px 10px 20px;
+}
+header h1{
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+#nav {
+  text-align: right;
+}
+#nav a{
+  color: white;
+}
+#nav a.selected, #nav a.selected:link{
+  text-decoration: none;
+}
+#contenido{
+  margin: auto;
+  text-align: center;
+}
+#contenidointerno{
+  margin: auto;
+  text-align: center;
+}
+@media (max-width: 900px) {
+	body {
+		width: 100%;
+	}
+  #article2, #article3{
+    width: 100%;
+  }
+  header h1{
+    text-align: center;
+  }
+  #nav {
+    text-align: center;
+  }
+  footer div{
+    width: 100%;
+  }
+  #contenidointerno  {
+		width: 100%;
+	}
+  #a1,#a2,#a3,#a4,#a5,#a6{
+    width: 100%;
+  }
+
+}
+@media (min-width: 901px) {
+	body {
+		width: 900px;
+	}
+  #article2, #article3{
+    width: 50%;
+  }
+  footer div{
+    width: 20%;
+  }
+  #contenidointerno  {
+		width: 900px;
+	}
+  #a1,#a2,#a3,#a4,#a5,#a6{
+    width: 33.3%;
+  }
+}
+
+section{
+  padding: 0;
+  margin: 0;
+  display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+section img {
+  box-shadow: 2px 2px #02010a;
+  text-align: center;
+  width: 70%;
+}
+#article1 {
+  width: 100%;
+  background-color: #82c3a6;
+}
+#article2 , #article3{
+  background-color: #d5c75f;
+}
+#article2 img, #article3 img{
+  border: 1px solid;
+}
+
+#article2 img:hover {
+  transform: rotate(10deg);
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid;
+}
+
+#article3 img:hover {
+  transform: translate(20px,-5px);
+  box-shadow: 2px 2px #82c3a6;
+  border: 2px solid;
+}
+
+footer{
+  background-color: #C6d5c5;
+  border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  margin: auto;
+  display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+}
+footer div{
+  padding: 20px;
+}
+footer img{
+  width: 20px;
+  vertical-align: middle;
+}
+#contenidointerno{
+  background-color: #d5c75f;
+}
+#contenidointerno img {
+  width: 80%;
+}
+#a1 img{
+  -webkit-filter: blur(10px);
+	filter: blur(10px%);
+}
+#a2,#a4,#a6 img{
+  -webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+}
+#a3 img{
+  -webkit-filter: sepia(90%);
+	filter: sepia(90%);
+}
