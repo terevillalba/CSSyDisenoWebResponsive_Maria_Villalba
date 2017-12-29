@@ -1,0 +1,45 @@
+.container{
+  background-image: url("../img/fondo.jpg");
+  background-repeat: repeat-y;
+}
+.back{
+  background-color: #01DF74;
+  opacity: 0.8;
+  color: white;
+}
+.titulo{
+  color: white;
+  border-right: 1px solid white;
+  margin-bottom: 4px;
+}
+.bloque2{
+  border-top: 1px solid white;
+  padding-top: 4px;
+}
+.mimenu li{
+  background-color: white;
+  opacity: 0.6;
+  margin: 3px;
+  color: grey;
+}
+.fotos{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.image{
+  border: 2px solid white;
+}
+.comentario{
+  margin: 5px !important;
+  padding: 5px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  moz-border-radius: 10px;
+  webkit-border-radius: 10px;
+}
+.enviocomentario{
+  background-color:  #01DF74;
+}
+.imagencomentario{
+  width: 100% !important;
+}

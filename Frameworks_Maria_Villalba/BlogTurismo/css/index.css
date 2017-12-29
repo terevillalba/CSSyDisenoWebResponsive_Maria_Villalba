@@ -1,0 +1,47 @@
+.fondo{
+  background-image: url("../img/fondo.jpg");
+  background-repeat: repeat-y;
+}
+.menu{
+  min-height: 6rem !important;
+}
+.menu img{
+  max-height: 6rem;
+  padding-left: 2rem;
+}
+.slogan{
+    min-height: 3rem;
+    font-size: 24px;
+}
+/* label color */
+  .input-field label {
+    color: #fff;
+  }
+  /* label focus color */
+  .input-field input[type=text]:focus + label {
+    color: #fff;
+  }
+  /* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+  }
+  /* valid color */
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+  }
+  /* invalid color */
+  .input-field input[type=text].invalid {
+    border-bottom: 1px solid #fff;
+    box-shadow: 0 1px 0 0 #fff;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #fff;
+  }
+.mifoto{
+  width: 60%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}

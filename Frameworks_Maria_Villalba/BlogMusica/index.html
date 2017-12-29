@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name='mobile-web-app-capable' content='yes'>
+    <title>Blog de Música de Tere</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src='js/bootstrap.min.js'></script>
+  </head>
+  <body>
+    <div class="row navbar-alto">
+      <div class="col-sm-12 col-md-6 ">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="logo-img img-responsive"></a>
+      </div>
+      <div class="col-sm-12 col-md-6  text-right">
+        <ul id="redes" class="list-inline">
+          <li><img class="img-social img-rounded" src="img/facebook.png"></li>
+          <li><img class="img-social img-rounded" src="img/twitter.png"></li>
+          <li><img class="img-social img-rounded" src="img/instagram.png"></li>
+          <li><img class="img-social img-rounded" src="img/youtube.png"></li>
+        </ul>
+      </div>
+    </div>
+
+    <ul class="nav nav-pills nav-justified menu">
+     <li class="active"><a href="index.html">Inicio</a></li>
+     <li><a href="artistas.html">Artistas</a></li>
+     <li><a href="grupos.html">Grupos</a></li>
+     <li><a href="top.html">Top 10</a></li>
+     <li><a href="letras.html">Letras</a></li>
+     <li><a href="acordes.html">Acordes</a></li>
+    </ul>
+
+    <div class="row bloque">
+      <div class="col-md-8 cod-sm-12">
+        <article class="article">
+          <div class="row">
+            <h4>Nacho</h4>
+            <hr>
+            <div class=" col-md-8 cod-sm-12">
+              <p>Miguel Ignacio Mendoza Donatti (Lechería, Venezuela, 22 de agosto de 1983), más conocido como Nacho, es un cantante, compositor, productor y activista ​venezolano, conocido principalmente por haber formado parte del dúo Chino & Nacho.</p>
+              <p>En marzo de 2017, Chino & Nacho anunciaron que se tomaría un descanso como dúo. Nacho confesó que el deseo de pasar más tiempo con su familia fue la razón principal de la decisión. "Llegábamos a hacer más de 160 fechas anuales y llegó un punto donde empecé a regular esos viajes para que fueran menor a 15 días, porque sentía que estaba abandonando a mis hijos, a mi esposa".</p>
+            </div>
+            <div class="col-md-4 cod-sm-12">
+              <img class="img-articulo img-thumbnail" src="img/nacho.jpg">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <form role="form" action="" method="post">
+                <fieldset>
+                  <div class="form-group">
+                    <legend class="user_data">
+                      Comentarios:
+                    </legend>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" class="form-control input-element"><br>
+                    <textarea class="form-control" rows="3" id="comment"></textarea>
+                  </div>
+                  <div class="text-right">
+                    <input type="submit" name="boton" class="btn btn-primary btn-save" value="Enviar">
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </article>
+
+        <article class="article">
+          <div class="row">
+            <h4>Piso 21</h4>
+            <hr>
+            <div class="col-md-4 cod-sm-12">
+              <img class="img-articulo img-thumbnail" src="img/piso21.jpg">
+            </div>
+            <div class=" col-md-8 cod-sm-12">
+              <p>Piso 21 es un grupo musical colombiano formado en Medellín en el año 2007. Su nombre proviene de una azotea de un edificio en Medellín, la cual se encontraba en el piso 21, y en donde se reunían a componer sus primeras canciones. El nombre es en forma de homenaje al lugar en el que comenzó el sueño de estos jóvenes artistas.</p>
+              <p>En 2016, firman con su compañía Warner Music, y lanzan "Me llamas" su canción con más éxito, que les hace lanzar su carrera internacional.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12">
+              <form role="form" action="" method="post">
+                <fieldset>
+                  <div class="form-group">
+                    <legend class="user_data">
+                      Comentarios:
+                    </legend>
+                    <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" class="form-control input-element"><br>
+                    <textarea class="form-control" rows="3" id="comment"></textarea>
+                  </div>
+                  <div class="text-right">
+                    <input type="submit" name="boton" class="btn btn-primary btn-save" value="Enviar">
+                  </div>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </article>
+      </div>
+      <div class=" col-md-4 hidden-xs hidden-sm">
+        <div class="row">
+          <div class="col-md-12">
+            <form >
+              <div class="form-group">
+                <legend class="user_data">
+                  Buscador:
+                </legend>
+                <input type="text" name="nombre" id="nombre" placeholder="Nombre Completo" class="form-control input-element"><br>
+              </div>
+              <div class="text-right">
+                <input type="submit" name="boton" class="btn btn-primary btn-save" value="Buscar">
+              </div>
+            </form><br>
+            <div class="list-group">
+             <a href="#" class="list-group-item">Pop</a>
+             <a href="#" class="list-group-item">Rock</a>
+             <a href="#" class="list-group-item">Lo que más suena</a>
+             <a href="#" class="list-group-item">Anglo</a>
+             <a href="#" class="list-group-item">Letras</a>
+             <a href="#" class="list-group-item">Merengue</a>
+             <a href="#" class="list-group-item">Pop Latino</a>
+             <a href="#" class="list-group-item">Acordes</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>

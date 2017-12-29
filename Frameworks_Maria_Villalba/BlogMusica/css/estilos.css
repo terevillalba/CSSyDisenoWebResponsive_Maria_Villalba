@@ -1,0 +1,32 @@
+.navbar-alto{
+  height: 8rem;
+  background: #464442;
+}
+.logo-img{
+  max-height: 6rem;
+  padding-left: 25px;
+}
+.img-social{
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: flex-end;
+}
+.menu{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.bloque{
+  padding: 15px;
+  margin: 10px;
+  background-color: #E0F8F7;
+  opacity: 0.8;
+}
+
+.article h4{
+  color: #0404B4;
+
+}
+.img-articulo{
+  width: 100%;
+}
