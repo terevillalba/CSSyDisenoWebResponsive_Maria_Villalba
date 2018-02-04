@@ -1,0 +1,17 @@
+nombre usuario: t_create_user
+clave: 12345
+
+este usuario debe tener acceso para ejecutar INSERT en la tabla usuarios de la BD
+Este usuario es utilizado en el archivo create_user.php
+
+nombre usuario: t_access
+clave: 12345
+
+este usuario debe tener acceso para ejecutar SELECT sobre los campos email, psw de la tabla usuarios de la BD
+Este usuario es utilizado en el archivo check_login.php
+
+nombre usuario: t_selector
+clave: 12345
+
+este usuario debe tener acceso para ejecutar SELECT, INSERT, UPDATE, DELETE en las dos tablas de la BD
+Este usuario es utilizado en los archivo getEvents.php, new_event.php, update_event.php y delete_event.php
