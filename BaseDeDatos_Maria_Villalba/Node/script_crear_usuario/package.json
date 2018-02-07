@@ -1,0 +1,14 @@
+{
+  "name": "script",
+  "version": "1.0.0",
+  "description": "script para crear usuario de sistema",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maria Villalba",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.0.3"
+  }
+}
