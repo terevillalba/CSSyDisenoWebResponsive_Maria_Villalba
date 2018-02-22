@@ -1,0 +1,16 @@
+.card-image{
+  padding: 10px;
+}
+.card-image img{
+
+  width: 400px;
+  }
+
+  .card-action{
+    padding: 5px;
+    height: 75px;
+  }
+  .card-action a{
+
+    text-align: center;
+  }

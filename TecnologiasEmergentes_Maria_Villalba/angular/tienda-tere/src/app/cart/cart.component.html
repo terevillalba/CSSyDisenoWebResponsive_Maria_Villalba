@@ -1,0 +1,31 @@
+<div class="row white">
+  <h2>Carrito de compras</h2>
+</div>
+<div class="row white" *ngIf="cantidadTotal > 0">
+  <div class="col s6">
+    <ul class="list-group shoppingCartListDiv">
+      <li class="list-group-item" *ngFor="let shoppingCart of shoppingCartJSON">
+          <div class="card">
+            <img class="card-image" src="../assets/{{shoppingCart.producto.imagen}}" width="15%" height="15%">
+            <div class="card-content">
+              <p>{{shoppingCart.producto.nombre}}</p>
+              <p><strong>Unidades: </strong>{{shoppingCart.cantidad}}</p>
+              <p><strong>Subtotal: </strong>{{shoppingCart.subtotal}}$</p>
+            </div>
+          </div>
+      </li>
+    </ul>
+  </div>
+  <div class="col s6">
+    <h2>Total: {{total}} $</h2>
+    <a class="waves-effect waves-light btn left blue" href="/catalogo">Cancelar</a>
+    <a type="button" class="waves-effect waves-light btn left orange" (click)="updateProductsStock()">Pagar</a>
+  </div>
+</div>
+
+<div class="row white" *ngIf="cantidadTotal <= 0">
+  <div class="col s12 mensaje">
+    <p>Usted no tiene elementos en el carrito de compras.</p>
+    <a class="waves-effect waves-light btn left blue " href="/catalogo">Volver al catalogo</a>
+  </div>
+</div>

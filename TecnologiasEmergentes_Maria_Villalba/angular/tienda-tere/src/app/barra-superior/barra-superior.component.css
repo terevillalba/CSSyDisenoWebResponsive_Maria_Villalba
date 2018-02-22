@@ -1,0 +1,13 @@
+.badge{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight:bold;
+  color: white;
+  font-size: 12px;
+  width: 15px;
+  background-color: red !important;
+}
+.brand-logo{
+
+  text-align: left !important;
+}

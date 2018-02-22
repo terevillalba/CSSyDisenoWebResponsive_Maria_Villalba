@@ -1,0 +1,36 @@
+<barra-superior></barra-superior>
+<div class="row white">
+
+    <div class="col s6" >
+        <h4>Catálogo de Productos</h4>
+    </div>
+    <div class="col s6" >
+      <p>{{dataModel}}</p>
+      <form [formGroup]="miFormulario">
+        <label for="filtro-input">¿Qué estás buscando?</label>
+        <input type="text" id="filtro-input"  class="form-control" formControlName="filtro" >
+      </form>
+    </div>
+
+    <form name="misProductos">
+      <div id="Productos">
+        <div class="col s4" *ngFor="let item of productos">
+          <div class="card">
+            <div class="card-image">
+              <img src="../assets/{{item.imagen}}">
+            </div>
+            <div class="card-content">
+              <p>{{item.nombre}}</p>
+              <p>Precio: ${{item.precio}}</p>
+              <p>Unidades disponibles: {{item.cantidad}}</p>
+            </div>
+            <div class="card-action">
+              <a class="waves-effect waves-light btn left blue" href="/ver-producto/{{item.nombre}}">Ver más</a>
+              <button class="waves-effect waves-light btn right orange" (click)="agregarAlCarrito(item, inputNumber.value)">Agregar</button>
+              <input type="number" class="right cantidad" min="1" max="10" value="1" #inputNumber>
+            </div>
+          </div>
+        </div>
+      </div>
+  </form>
+</div>
